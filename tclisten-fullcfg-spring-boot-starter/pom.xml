@@ -5,8 +5,8 @@
     <artifactId>tclisten-fullcfg-spring-boot</artifactId>
     <version>1.3.0.RELEASE</version>
   </parent>
-  <artifactId>tclisten-fullcfg-spring-boot-starter/artifactId>
-  <name>Tomcat Listener Full Configuration starter</name>
+  <artifactId>tclisten-fullcfg-spring-boot-starter</artifactId>
+  <name>Tomcat Listener Full Configuration starter.</name>
   <description>Starter component of the tclisten-fullcfg starter.</description>
   <url>https://gitlab.eve-divinity.com/open-source/tclisten-fullcfg-spring-boot/tclisten-fullcfg-spring-boot-starter</url>
 
