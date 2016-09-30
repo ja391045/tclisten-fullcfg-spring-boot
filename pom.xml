@@ -7,9 +7,7 @@
     <version>1.3.0.RELEASE</version>
   </parent>
 
-  <groupId>org.springframework.boot</groupId>
   <artifactId>tclisten-fullcfg-spring-boot</artifactId>
-  <version>1.3.0.RELEASE</version>
   <packaging>pom</packaging>
 
   <name>Tomcat Listener Full Configuration</name>
