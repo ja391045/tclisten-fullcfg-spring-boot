@@ -14,9 +14,9 @@ A spring boot starter which gives the user very fine grained control over Tomcat
 
 ## Intended Use Case ##
 
-This starter should be used when one requires very fine grained control over embedded Tomcat connectors, but wishes that control to remain externalized.
+This starter should be used when one requires very fine grained control over embedded Tomcat connectors, but wishes that control to remain externalized.  This is a very narrow use case, and if you are usure about whether or not you need the fine grained control offered, it's likely that it is not needed.
 
-In most cases, Spring Boot's standard `server.*` and `server.tomcat.*` properties give embedded Tomcat users enough external configuration options to meet their needs.  In rare cases, such as when multiple connectors are required, more control over Tomcat's configuration is needed.  To that end, Spring Boot provides programatic methods of fine-tuning Tomcat.  The downside to the programatic approach is that the fine-tuning isn't inherently external.  This starter remedies that sitution by providing externalized, `application.properties` based configuration for any and all tuning which is supported by Tomcat 8.0.
+In most cases, Spring Boot's standard `server.*` and `server.tomcat.*` properties give embedded Tomcat users enough external configuration options to meet their needs.  In rare cases, such as when multiple connectors with different options are required, more control over Tomcat's configuration is needed.  To that end, Spring Boot provides programatic methods of fine-tuning Tomcat.  The downside to the programatic approach is that the fine-tuning isn't inherently external.  This starter remedies that sitution by providing externalized, `application.properties` based configuration for any and all tuning which is supported by Tomcat 8.0.
 
 ## Requirements ##
 
@@ -24,12 +24,14 @@ See [Support Matrix](#support-matrix) below.
 
 ## Quick Start ##
 
+*Important*  This project is not yet available on Maven Central.  That is in the works.
+
 ```xml
 <!-- pom.xml -->
 <dependency>
   <groupId>org.springframework.boot<groupId>
-  <artifactId>tcconn-spring-boot-starter<artifactId>
-  <version>${tcconn.version}</version>
+  <artifactId>tclisten-fullcfg-spring-boot-starter<artifactId>
+  <version>1.3.0.RELEASE</version>
 </dependency>
 ```
 
@@ -171,7 +173,7 @@ tc:
 
 Any default values listed in  [Apache Tomcat 8 Configuration Reference](https://tomcat.apache.org/tomcat-8.0-doc/config/http.html) are retained as the default value here, so not every property need be specified.  In short, if you must specify a value in Tomcat's server.xml, then you must specify the value here.  Otherwise, the default may be accepted.
 
-Finally, a quick note on APR connectors.   If an APR type connector is specified by configuration, but the [APR/Native library](https://tomcat.apache.org/tomcat-8.0-doc/apr.html) is not installed, or is not available, an error will occur on application startup.
+Finally, a quick note on APR connectors.   If an APR type connector is specified by configuration, but the [APR/Native library](https://tomcat.apache.org/tomcat-8.0-doc/apr.html) is not installed, or is not available, an error will occur on application startup.  Right now, this is a feature, not a bug.  If a production specification dictates that APR/Native must be used, it is important that the use of the connector is assured, rather than auto-selecting another connector in the absence of APR.  On the TODO list is the addition of the HTTP/1.1 & AJP/1.3 protocols as top level connectors.  These protocols when specified should auto-switch between APR when available, or NIO if APR is absent.
 
 
 ## In-Depth Examples ##
@@ -230,6 +232,3 @@ tc:
         SSLCertificateKeyFile: /path/to/my-key.pem
         SSLPassword: mykeypassphrase
 ```
-
-
-
