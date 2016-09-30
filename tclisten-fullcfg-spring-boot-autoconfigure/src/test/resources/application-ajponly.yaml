@@ -1,0 +1,5 @@
+tc:
+  nioAjpConnectors:
+    - ajpFlush: true
+    - port: 8980
+    - address: 127.0.0.1

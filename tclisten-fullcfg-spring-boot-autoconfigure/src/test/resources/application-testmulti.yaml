@@ -1,0 +1,12 @@
+tc:
+  nioHttpConnectors:
+    - enableLookups: false
+      address: 127.0.0.1
+      port: 8183
+    - enableLookups: false
+      address: 127.0.0.1
+      port: 8184
+  nio2HttpConnectors:
+    - enableLookups: true
+      address: 127.0.0.1
+      port: 8185

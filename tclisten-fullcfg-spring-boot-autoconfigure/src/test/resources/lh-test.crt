@@ -1,0 +1,134 @@
+Certificate:
+    Data:
+        Version: 3 (0x2)
+        Serial Number: 2097472 (0x200140)
+    Signature Algorithm: sha256WithRSAEncryption
+        Issuer: C=US, L=San Tan Valley, O=ClearOS, OU=Development, CN=ca.fw1.pirat3.com/emailAddress=security@fw1.pirat3.com, O=CAAOS, ST=AZ
+        Validity
+            Not Before: Sep 20 23:19:02 2016 GMT
+            Not After : Sep 14 23:19:02 2041 GMT
+        Subject: C=US, ST=AZ, L=Tempe, O=PhoenixNAP LLC, OU=DevEng, CN=localhost/emailAddress=johna@phoenixnap.com
+        Subject Public Key Info:
+            Public Key Algorithm: rsaEncryption
+                Public-Key: (4096 bit)
+                Modulus:
+                    00:ac:89:68:9c:05:8b:5e:2c:a3:26:10:94:f1:94:
+                    26:ec:1c:36:cb:b1:46:5b:6a:1d:41:dd:c8:6a:c7:
+                    9e:f0:71:c5:b9:49:9d:58:f8:37:36:3f:51:f5:bd:
+                    24:c8:7e:62:22:db:2c:8f:40:c7:62:44:49:da:9f:
+                    ac:68:f6:27:98:bc:a4:74:f8:63:12:75:c4:f1:8c:
+                    7f:13:1d:2c:d2:85:4a:eb:f9:33:e4:e1:97:54:7b:
+                    7b:e9:36:fc:0b:dd:4d:41:db:1b:d7:68:f4:e0:26:
+                    0c:92:29:9d:5e:db:1f:d6:1b:00:98:25:4e:3c:49:
+                    d9:05:31:b1:3a:c1:f9:6d:28:42:71:78:20:22:04:
+                    8a:ae:63:c3:81:55:e8:8b:cd:f1:9d:db:cc:4a:a5:
+                    7e:ed:54:84:df:b2:c4:15:51:ba:61:5b:fb:f3:51:
+                    a1:cb:c8:f1:80:5f:01:8a:72:8c:5a:17:c8:8a:a2:
+                    bc:05:13:93:dd:1f:5b:56:6b:ad:a2:d1:3a:0b:02:
+                    3c:c9:92:54:f8:77:23:5c:00:b3:88:81:88:4e:67:
+                    04:1a:05:23:40:8f:3c:ab:d3:49:ef:df:c9:ff:ed:
+                    72:3d:36:bc:1d:a1:65:93:49:99:1a:62:ff:0f:2d:
+                    fa:f7:1e:d8:f0:da:e3:b9:b5:10:ab:05:f8:c3:d3:
+                    0b:c6:de:8a:7a:12:df:78:b3:a0:0a:37:78:83:cf:
+                    ec:7d:d6:18:5a:e8:99:e9:bc:84:fa:63:f5:ba:b0:
+                    e7:b2:26:89:7e:7e:5c:d8:a4:d7:50:62:49:ef:aa:
+                    2c:06:fd:b6:b4:8c:98:b7:3d:fd:a8:db:69:a2:b8:
+                    b5:db:df:ca:1e:9c:71:af:d5:4e:f1:3d:50:8a:c6:
+                    48:bc:a3:9e:79:1b:c5:ef:a3:02:01:10:f8:b7:95:
+                    04:41:38:24:07:66:87:05:7c:3e:48:72:f2:da:7d:
+                    f8:80:63:91:fd:84:f6:c6:f7:9c:4a:32:61:62:63:
+                    80:54:fa:11:9f:17:3c:d1:82:23:5c:1d:7e:4b:42:
+                    db:54:98:1f:be:1d:fb:9a:a3:bb:06:c7:c6:4a:87:
+                    ff:4c:9f:13:d6:92:1c:e0:46:e1:13:e2:d7:d7:5b:
+                    4f:8a:30:29:fb:42:8c:5e:dc:f9:0c:c8:aa:7e:35:
+                    c5:3c:53:cf:d1:1b:90:2c:12:96:ca:5f:1d:1b:26:
+                    04:9c:a6:1f:93:09:fc:8c:e3:17:7e:8b:38:de:59:
+                    8d:2e:9c:26:dd:1a:40:07:f7:ec:bd:f1:2b:50:d6:
+                    5d:1f:10:57:60:af:c1:63:8d:c7:31:df:eb:7b:c2:
+                    ef:7e:5f:73:f0:e6:08:40:7e:a4:c8:62:3d:3c:f8:
+                    ae:65:f7
+                Exponent: 65537 (0x10001)
+        X509v3 extensions:
+            X509v3 Basic Constraints: 
+                CA:FALSE
+            Netscape Cert Type: 
+                SSL Client, SSL Server, Object Signing
+            Netscape Comment: 
+                ClearOS Generated Certificate
+            X509v3 Subject Key Identifier: 
+                9D:09:B7:41:F6:3E:BA:CA:81:E9:84:15:8C:05:46:F9:E6:5C:30:D3
+            X509v3 Authority Key Identifier: 
+                keyid:3D:A9:81:7B:BC:E2:6C:43:05:F4:05:DB:DF:34:22:F5:14:60:17:0D
+                DirName:/C=US/L=San Tan Valley/O=ClearOS/OU=Development/CN=ca.fw1.pirat3.com/emailAddress=security@fw1.pirat3.com/O=CAAOS/ST=AZ
+                serial:CB:73:2A:5C:5C:BA:74:B9
+
+            X509v3 Key Usage: 
+                Digital Signature, Non Repudiation, Key Encipherment, Data Encipherment, Key Agreement
+            X509v3 Extended Key Usage: 
+                TLS Web Server Authentication, TLS Web Client Authentication
+            X509v3 CRL Distribution Points: 
+
+                Full Name:
+                  URI:http://fw1/ca-crl.pem
+
+                Full Name:
+                  URI:http://fw1.phx1.anderson.local/ca-crl.pem
+
+            X509v3 Subject Alternative Name: 
+                DNS:localhost, DNS:localhost.localdomain, DNS:127.0.0.1, DNS:@127.0.0.1, DNS:127.0.0.1.localdomain
+    Signature Algorithm: sha256WithRSAEncryption
+         d6:51:d4:26:2d:b1:03:29:68:f2:83:a5:d7:ad:25:34:5d:17:
+         07:46:dc:3a:79:3b:07:ca:eb:7c:fb:ff:e6:a3:39:82:16:ec:
+         45:f5:8e:08:09:fb:49:80:76:b2:4a:30:b8:b7:f8:c9:0c:33:
+         c9:29:72:49:b7:b0:02:f9:52:ec:d1:11:dd:82:95:75:fa:f2:
+         43:35:d1:e1:57:b4:cf:80:4b:ca:f7:78:d0:b5:cf:51:3f:1f:
+         5a:c7:d3:81:cb:c7:f3:69:60:69:2a:1a:65:be:10:af:55:20:
+         cc:ee:0f:48:5b:45:03:2b:2e:39:56:97:9d:44:83:fb:34:ad:
+         69:14:19:2c:25:59:6a:66:68:bf:6d:1a:84:ba:bc:dd:99:7d:
+         6f:40:a5:f3:9f:cb:2e:6b:e5:24:94:e4:33:ce:2a:ba:39:37:
+         78:83:ff:e2:1c:7b:7b:03:da:07:00:51:8c:26:4f:5f:a2:66:
+         7a:92:61:95:41:f2:0f:93:ca:5d:fc:e8:40:c7:e6:01:b0:f3:
+         7d:e8:f0:07:58:09:8d:8d:e7:6d:da:61:e9:5d:10:24:61:f2:
+         3b:f0:03:53:f1:8d:06:1e:ca:5f:53:38:ac:b6:d1:30:a5:18:
+         27:6a:fd:a1:2e:66:5d:54:df:c7:d4:48:6c:ae:32:2a:90:6e:
+         02:aa:56:58
+-----BEGIN CERTIFICATE-----
+MIIG8zCCBdugAwIBAgIDIAFAMA0GCSqGSIb3DQEBCwUAMIGvMQswCQYDVQQGEwJV
+UzEXMBUGA1UEBwwOU2FuIFRhbiBWYWxsZXkxEDAOBgNVBAoMB0NsZWFyT1MxFDAS
+BgNVBAsMC0RldmVsb3BtZW50MRowGAYDVQQDDBFjYS5mdzEucGlyYXQzLmNvbTEm
+MCQGCSqGSIb3DQEJARYXc2VjdXJpdHlAZncxLnBpcmF0My5jb20xDjAMBgNVBAoM
+BUNBQU9TMQswCQYDVQQIDAJBWjAeFw0xNjA5MjAyMzE5MDJaFw00MTA5MTQyMzE5
+MDJaMIGNMQswCQYDVQQGEwJVUzELMAkGA1UECAwCQVoxDjAMBgNVBAcMBVRlbXBl
+MRcwFQYDVQQKDA5QaG9lbml4TkFQIExMQzEPMA0GA1UECwwGRGV2RW5nMRIwEAYD
+VQQDDAlsb2NhbGhvc3QxIzAhBgkqhkiG9w0BCQEWFGpvaG5hQHBob2VuaXhuYXAu
+Y29tMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArIlonAWLXiyjJhCU
+8ZQm7Bw2y7FGW2odQd3Iasee8HHFuUmdWPg3Nj9R9b0kyH5iItssj0DHYkRJ2p+s
+aPYnmLykdPhjEnXE8Yx/Ex0s0oVK6/kz5OGXVHt76Tb8C91NQdsb12j04CYMkimd
+Xtsf1hsAmCVOPEnZBTGxOsH5bShCcXggIgSKrmPDgVXoi83xndvMSqV+7VSE37LE
+FVG6YVv781Ghy8jxgF8BinKMWhfIiqK8BROT3R9bVmutotE6CwI8yZJU+HcjXACz
+iIGITmcEGgUjQI88q9NJ79/J/+1yPTa8HaFlk0mZGmL/Dy369x7Y8NrjubUQqwX4
+w9MLxt6KehLfeLOgCjd4g8/sfdYYWuiZ6byE+mP1urDnsiaJfn5c2KTXUGJJ76os
+Bv22tIyYtz39qNtpori129/KHpxxr9VO8T1QisZIvKOeeRvF76MCARD4t5UEQTgk
+B2aHBXw+SHLy2n34gGOR/YT2xvecSjJhYmOAVPoRnxc80YIjXB1+S0LbVJgfvh37
+mqO7BsfGSof/TJ8T1pIc4EbhE+LX11tPijAp+0KMXtz5DMiqfjXFPFPP0RuQLBKW
+yl8dGyYEnKYfkwn8jOMXfos43lmNLpwm3RpAB/fsvfErUNZdHxBXYK/BY43HMd/r
+e8Lvfl9z8OYIQH6kyGI9PPiuZfcCAwEAAaOCAjYwggIyMAkGA1UdEwQCMAAwEQYJ
+YIZIAYb4QgEBBAQDAgTQMCwGCWCGSAGG+EIBDQQfFh1DbGVhck9TIEdlbmVyYXRl
+ZCBDZXJ0aWZpY2F0ZTAdBgNVHQ4EFgQUnQm3QfY+usqB6YQVjAVG+eZcMNMwgeQG
+A1UdIwSB3DCB2YAUPamBe7zibEMF9AXb3zQi9RRgFw2hgbWkgbIwga8xCzAJBgNV
+BAYTAlVTMRcwFQYDVQQHDA5TYW4gVGFuIFZhbGxleTEQMA4GA1UECgwHQ2xlYXJP
+UzEUMBIGA1UECwwLRGV2ZWxvcG1lbnQxGjAYBgNVBAMMEWNhLmZ3MS5waXJhdDMu
+Y29tMSYwJAYJKoZIhvcNAQkBFhdzZWN1cml0eUBmdzEucGlyYXQzLmNvbTEOMAwG
+A1UECgwFQ0FBT1MxCzAJBgNVBAgMAkFaggkAy3MqXFy6dLkwCwYDVR0PBAQDAgP4
+MB0GA1UdJQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjBXBgNVHR8EUDBOMBugGaAX
+hhVodHRwOi8vZncxL2NhLWNybC5wZW0wL6AtoCuGKWh0dHA6Ly9mdzEucGh4MS5h
+bmRlcnNvbi5sb2NhbC9jYS1jcmwucGVtMFkGA1UdEQRSMFCCCWxvY2FsaG9zdIIV
+bG9jYWxob3N0LmxvY2FsZG9tYWluggkxMjcuMC4wLjGCCkAxMjcuMC4wLjGCFTEy
+Ny4wLjAuMS5sb2NhbGRvbWFpbjANBgkqhkiG9w0BAQsFAAOCAQEA1lHUJi2xAylo
+8oOl160lNF0XB0bcOnk7B8rrfPv/5qM5ghbsRfWOCAn7SYB2skowuLf4yQwzySly
+SbewAvlS7NER3YKVdfryQzXR4Ve0z4BLyvd40LXPUT8fWsfTgcvH82lgaSoaZb4Q
+r1UgzO4PSFtFAysuOVaXnUSD+zStaRQZLCVZamZov20ahLq83Zl9b0Cl85/LLmvl
+JJTkM84qujk3eIP/4hx7ewPaBwBRjCZPX6JmepJhlUHyD5PKXfzoQMfmAbDzfejw
+B1gJjY3nbdph6V0QJGHyO/ADU/GNBh7KX1M4rLbRMKUYJ2r9oS5mXVTfx9RIbK4y
+KpBuAqpWWA==
+-----END CERTIFICATE-----

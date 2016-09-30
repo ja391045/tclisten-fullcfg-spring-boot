@@ -1,0 +1,54 @@
+tc:
+  nioHttpConnectors:
+    - enableLookups: false
+      address: 127.0.0.1
+      port: 8543
+      scheme: https
+      secure: true
+      sslEnabled: true
+      ssl:
+        keystoreFile: classpath:keystore.jks
+        keystorePass: changeme
+        keyPass: changeme
+        truststoreFile: classpath:truststore.jks
+        truststorePass: changeme
+        clientAuth: true
+  nio2HttpConnectors:
+    - enableLookups: false
+      address: 127.0.0.1
+      port: 9543
+      scheme: https
+      secure: true
+      sslEnabled: true
+      ssl:
+        keystoreFile: classpath:keystore.jks
+        keystorePass: changeme
+        keyPass: changeme
+        truststoreFile: classpath:truststore.jks
+        truststorePass: changeme
+        clientAuth: true
+  AprHttpConnectors:
+    - address: 127.0.0.1
+      port: 11543
+      scheme: https
+      secure: true
+      sslEnabled: true
+      ssl:
+        SSLCACertificateFile: src/test/resources/ca-cert.pem
+        SSLCertificateKeyFile: src/test/resources/lh-test.key
+        SSLCertificateFile: src/test/resources/lh-test.crt
+        SSLVerifyClient: require
+  bioHttpConnectors:
+    - enableLookups: false
+      address: 127.0.0.1
+      port: 10543
+      scheme: https
+      secure: true
+      sslEnabled: true
+      ssl:
+        keystoreFile: classpath:keystore.jks
+        keystorePass: changeme
+        keyPass: changeme
+        truststoreFile: classpath:truststore.jks
+        truststorePass: changeme
+        clientAuth: true
