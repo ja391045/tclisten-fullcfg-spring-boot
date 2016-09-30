@@ -29,7 +29,7 @@ See [Support Matrix](#support-matrix) below.
 ```xml
 <!-- pom.xml -->
 <dependency>
-  <groupId>org.springframework.boot<groupId>
+  <groupId>com.github.ja391045<groupId>
   <artifactId>tclisten-fullcfg-spring-boot-starter<artifactId>
   <version>1.3.0.RELEASE</version>
 </dependency>
