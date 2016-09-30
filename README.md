@@ -1,4 +1,4 @@
-# Spring Boot Tomcat Connectors Starter #
+# Spring Boot Tomcat Listener's Full Config Starter #
 
 A spring boot starter which gives the user very fine grained control over Tomcat's APR and HTTP connectors via properties.
 
