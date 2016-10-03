@@ -54,9 +54,9 @@ public class TcconnEmbeddedServletContainerAutoConfiguration implements Applicat
 	private static final Log log = LogFactory.getLog(TcconnEmbeddedServletContainerAutoConfiguration.class);
 	
 	private ApplicationContext ctx;
+	
 	/**
 	 * Spring constructor.
-	 * @param factory Autowired field.
 	 */
 	public TcconnEmbeddedServletContainerAutoConfiguration() {
 		log.debug("TcConn AutoConfiguration Started.");

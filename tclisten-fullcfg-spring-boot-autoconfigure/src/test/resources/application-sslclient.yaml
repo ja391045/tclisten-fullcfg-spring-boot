@@ -37,7 +37,6 @@ tc:
         SSLCACertificateFile: src/test/resources/ca-cert.pem
         SSLCertificateKeyFile: src/test/resources/lh-test.key
         SSLCertificateFile: src/test/resources/lh-test.crt
-        SSLVerifyClient: require
   bioHttpConnectors:
     - enableLookups: false
       address: 127.0.0.1
