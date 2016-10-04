@@ -24,7 +24,6 @@ See [Support Matrix](#support-matrix) below.
 
 ## Quick Start ##
 
-*Important*  This project is not yet available on Maven Central.  That is in the works.
 
 ```xml
 <!-- pom.xml -->
