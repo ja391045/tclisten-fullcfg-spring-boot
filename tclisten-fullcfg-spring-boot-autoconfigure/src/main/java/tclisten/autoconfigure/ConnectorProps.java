@@ -1,6 +1,6 @@
 /*
- * <copyright file="ConnectorConfig.java" company="CWIE, LLC">
- * Copyright (c) 2016 CWIE, LLC
+ * <copyright file="ConnectorConfig.java" company="John Anderson">
+ * Copyright (c) 2016 John Anderson
  * 
  * This source is subject to the [] License.  Please see License.txt file
  * for more information.  All other rights reserved.
@@ -11,7 +11,7 @@
  * PARTICULAR PURPOSE.
  * </copyright>
  * <author>John Anderson</author>
- * <email>johnha@ccbill.com</email>
+ * <email>ja391045@gmail.com</email>
  * <date>Aug 1, 2016</date>
  * <summary></summary>
  */
@@ -26,7 +26,7 @@ import org.springframework.boot.context.embedded.tomcat.TomcatConnectorCustomize
 
 
 /**
- * @author <a href="mailto:johna@ccbill.com">John Anderson</a>
+ * @author <a href="mailto:ja391045@gmail.com">John Anderson</a>
  * 
  * Configuration item for "connectors" in their most generic sense.  Some properties are common to all
  * Tomcat connectors, while others are only available to specific types of connectors.  This is a catch-all

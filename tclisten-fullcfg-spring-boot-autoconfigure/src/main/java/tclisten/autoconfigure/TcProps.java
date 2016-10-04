@@ -1,6 +1,6 @@
 /*
- * <copyright file="TomcatConfig.java" company="CWIE, LLC">
- * Copyright (c) 2016 CWIE, LLC
+ * <copyright file="TomcatConfig.java" company="John Anderson">
+ * Copyright (c) 2016 John Anderson
  * 
  * This source is subject to the [] License.  Please see License.txt file
  * for more information.  All other rights reserved.
@@ -11,7 +11,7 @@
  * PARTICULAR PURPOSE.
  * </copyright>
  * <author>John Anderson</author>
- * <email>johnha@ccbill.com</email>
+ * <email>ja391045@gmail.com</email>
  * <date>Aug 1, 2016</date>
  * <summary></summary>
  */
@@ -24,7 +24,7 @@ import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.core.Ordered;
 
 /**
- * @author <a href="mailto:johna@ccbill.com">John Anderson</a>
+ * @author <a href="mailto:ja391045@gmail.com">John Anderson</a>
  *
  * Top level of 'tcconn' config hierarchy.  This class is mainly used as a container for
  * connectors.  

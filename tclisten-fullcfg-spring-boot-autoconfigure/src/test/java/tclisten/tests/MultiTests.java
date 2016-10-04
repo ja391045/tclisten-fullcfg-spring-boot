@@ -1,6 +1,6 @@
 /*
- * <copyright file="MultiTests.java" company="CWIE, LLC">
- * Copyright (c) 2016 CWIE, LLC
+ * <copyright file="MultiTests.java" company="John Anderson">
+ * Copyright (c) 2016 John Anderson
  * 
  * This source is subject to the [] License.  Please see License.txt file
  * for more information.  All other rights reserved.
@@ -11,7 +11,7 @@
  * PARTICULAR PURPOSE.
  * </copyright>
  * <author>John Anderson</author>
- * <email>johnha@ccbill.com</email>
+ * <email>ja391045@gmail.com</email>
  * <date>Sep 20, 2016</date>
  * <summary></summary>
  */
@@ -36,7 +36,7 @@ import org.springframework.web.client.RestTemplate;
 import tclisten.Application;
 
 /**
- * @author <a href="mailto:johna@ccbill.com">John Anderson</a>
+ * @author <a href="mailto:ja391045@gmail.com">John Anderson</a>
  *
  */
 @RunWith(SpringJUnit4ClassRunner.class)

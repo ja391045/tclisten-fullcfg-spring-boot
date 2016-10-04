@@ -1,6 +1,6 @@
 /*
- * <copyright file="TcPropsAutoConfiguration.java" company="CWIE, LLC">
- * Copyright (c) 2016 CWIE, LLC
+ * <copyright file="TcPropsAutoConfiguration.java" company="John Anderson">
+ * Copyright (c) 2016 John Anderson
  * 
  * This source is subject to the [] License.  Please see License.txt file
  * for more information.  All other rights reserved.
@@ -11,7 +11,7 @@
  * PARTICULAR PURPOSE.
  * </copyright>
  * <author>John Anderson</author>
- * <email>johnha@ccbill.com</email>
+ * <email>ja391045@gmail.com</email>
  * <date>Sep 30, 2016</date>
  * <summary></summary>
  */
@@ -27,7 +27,7 @@ import org.springframework.context.annotation.Configuration;
 import tclisten.autoconfigure.TcProps;
 
 /**
- * @author <a href="mailto:johna@ccbill.com">John Anderson</a>
+ * @author <a href="mailto:ja391045@gmail.com">John Anderson</a>
  *
  */
 @Configuration

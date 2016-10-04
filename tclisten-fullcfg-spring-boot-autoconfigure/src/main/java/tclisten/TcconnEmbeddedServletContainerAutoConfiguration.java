@@ -1,6 +1,6 @@
 /*
- * <copyright file="TcconnEmbeddedServletContainerAutoConfiguration.java" company="CWIE, LLC">
- * Copyright (c) 2016 CWIE, LLC
+ * <copyright file="TcconnEmbeddedServletContainerAutoConfiguration.java" company="John Anderson">
+ * Copyright (c) 2016 John Anderson
  * 
  * This source is subject to the [] License.  Please see License.txt file
  * for more information.  All other rights reserved.
@@ -11,7 +11,7 @@
  * PARTICULAR PURPOSE.
  * </copyright>
  * <author>John Anderson</author>
- * <email>johnha@ccbill.com</email>
+ * <email>ja391045@gmail.com</email>
  * <date>Sep 29, 2016</date>
  * <summary></summary>
  */
@@ -38,7 +38,7 @@ import org.springframework.core.Ordered;
 import tclisten.autoconfigure.TcProps;
 
 /**
- * @author <a href="mailto:johna@ccbill.com">John Anderson</a>
+ * @author <a href="mailto:ja391045@gmail.com">John Anderson</a>
  * Top entry point where tcconn takes over in place of 
  * <a href="http://docs.spring.io/spring-boot/docs/current/api/org/springframework/boot/autoconfigure/web/EmbeddedServletContainerAutoConfiguration.html">
  * EmbeddedServletContainerAutoConfiguration</a>.

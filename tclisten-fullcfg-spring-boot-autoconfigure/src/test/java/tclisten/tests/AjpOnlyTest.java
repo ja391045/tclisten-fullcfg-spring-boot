@@ -1,6 +1,6 @@
 /*
- * <copyright file="AjpOnlyTest.java" company="CWIE, LLC">
- * Copyright (c) 2016 CWIE, LLC
+ * <copyright file="AjpOnlyTest.java" company="John Anderson">
+ * Copyright (c) 2016 John Anderson
  * 
  * This source is subject to the [] License.  Please see License.txt file
  * for more information.  All other rights reserved.
@@ -11,7 +11,7 @@
  * PARTICULAR PURPOSE.
  * </copyright>
  * <author>John Anderson</author>
- * <email>johnha@ccbill.com</email>
+ * <email>ja391045@gmail.com</email>
  * <date>Aug 12, 2016</date>
  * <summary></summary>
  */
@@ -30,7 +30,7 @@ import tclisten.Application;
 import static org.junit.Assert.*;
 
 /**
- * @author <a href="mailto:johna@ccbill.com">John Anderson</a>
+ * @author <a href="mailto:ja391045@gmail.com">John Anderson</a>
  *
  */
 @RunWith(SpringJUnit4ClassRunner.class)
